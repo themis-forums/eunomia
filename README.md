@@ -1,5 +1,5 @@
 ### Usage
-Download and enter the library, ensure `dune` is installed, then, in the folder, run:
+Download, ensure `dune` is installed, then, in the folder, run:
 ```
 dune exec main [FLAGS]
 ```
