@@ -1,8 +1,14 @@
 ### Usage
-Download, ensure `dune` is installed, then, in the folder, run:
+Download, ensure `opam` and `dune` are installed, then, in the folder, run:
 ```
-dune exec main [FLAGS]
+dune build
+opam install --deps-only .
 ```
+to install dependencies. Then, you can simply run
+```
+dune exec main
+```
+to execute Eunomia.
 
 ### Flags
 See `--help`, `-h`, or `-?`.
